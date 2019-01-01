@@ -1,0 +1,120 @@
+/* styling luckySevens game*/
+
+h4{
+    font-size: 50px;
+    color: #090b12;
+    font-family: Comic Sans MS;
+}
+
+table tr td{
+font-family: Comic Sans MS;
+font-size:16px;
+}
+
+.container{
+   padding-left: 0;
+   padding-right: 0;
+   min-width: 480px;
+   padding-bottom: 0;
+   padding-top: 0;
+}
+.dice-head{
+    height: 120px;
+    text-align: center;
+
+}
+.head-word{
+    padding-top: 15px;
+}
+
+.main-data{
+    padding-left: 0;
+    padding-right: 0;
+}
+.side-top{
+    min-width: 450px;
+    max-width:600px;
+    text-align: center;
+    margin: auto;
+}
+.side-top .style1{
+    text-align: center;
+}
+.side-top .txtBox{
+    max-width: 150px;
+    min-width: 100px;
+    text-align: right;
+    margin:auto;
+}
+.side-top .style1 button{
+    margin: auto;
+    margin-top: 10px;
+    color: #090b12;
+    background-color:#eeeeee;
+    border:2px solid;
+}
+.middle{
+    margin: auto;
+    width:300px;
+    border-bottom: 2px solid;
+    border-bottom-color:#090b12;
+}
+.side-bottom{
+    text-align: center;
+    min-width: 450px;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 10px;
+}
+.inputvalue{
+    max-width: 450px;
+    min-width: 350px;
+    text-align: center;
+    margin: auto;
+}
+.side-bottom table{
+    max-width: 350px;
+    min-width: 300px;
+    margin: 20px auto;
+    margin-top:0;
+    padding-top:50px;
+    font-size: 16px;
+    border: 3px solid #090b12;
+    border-collapse: collapse;
+}
+.side-bottom table tr td:first-child,
+.side-bottom table tr th:first-child{
+    border-right: 2px solid #090b12;
+    width:230px;
+
+}
+.side-bottom table tr td,
+.side-bottom table tr th{
+font-size: 12px;
+}
+.side-bottom center{
+    padding-top:20px;
+    padding-bottom: 50px;
+}
+
+.side-bottom{
+
+ }
+#startbet,
+#totalroll,
+#highestwon,
+#rollcount
+{
+    text-align: left;
+}
+.result0{
+    font-size: 28px;
+    font:bold;
+    color: #090b12;
+}
+
+@media (max-width:400px) and (min-width:300px){
+    .side-bottom table{
+        margin-left: 5%;
+    }
+}
