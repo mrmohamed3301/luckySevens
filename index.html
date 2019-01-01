@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+Name:Mohamed Ahmed
+Date:1/1/2019
+Most Recent Version: up to date
+-->
+<html lang="en">
+    <head>
+        <title>Lucky Sevens</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/function.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+          <div class="dice-head">
+              <div class="head-word">
+                <h4>Lucky Sevens</h4>
+              </div>
+          </div>
+
+          <div class="main-data">
+                  <div class="side-top">
+                        <div class="style1">
+                              <!-- starting the game and getting the bet -->
+                              <form onsubmit="return luckySevens();">
+
+                              <div class="form-group">
+                                    <div class="inputvalue">
+                                    <label class="col-md-5" for="inputsm">Starting Bet:</label>
+                                    <input class="form-control input-sm txtBox col-md-7" type="number" id="initialBet" placeholder="$0.00" name="bet" required></br>
+                                    </div>
+                              </div>
+                              <!-- setting up the play button -->
+                              <div class="form-group">
+                                    <button id="p2" class="btn playButton .btn-md" type="submit">Play</button>
+                              </div>
+                              </form>
+                        </div>
+                  </div>
+                  <!-- for the line in the middle of the page -->
+                  <div class="middle">
+  
+                  </div>
+
+
+
+          </div>
+
+
+    </body>
+</html>
