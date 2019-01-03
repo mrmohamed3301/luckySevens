@@ -13,7 +13,7 @@ If the sum of the 2 dice is equal to 7, the player wins $4. Otherwise, the playe
 5- The user will get the opportunity to play again at end of the game.
 
 Installing:
-There is no need for any installments. Just download the directory with the game files included and click the index file in the directory to run with your own browser.
+There is no need for any installments. Just download the directory with the game files included and click the index.html file in the directory to run with your own browser.
 You can also place/grab the index file and drop/into your browser.
 
 Author: Mohamed Ahmed
