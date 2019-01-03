@@ -60,6 +60,10 @@ function luckySevens() {
         document.getElementById("totalroll").innerHTML = (rollTally);
         document.getElementById("highestwon").innerHTML =("$" + parseFloat(totalMax).toFixed(2));
         document.getElementById("rollcount").innerHTML = (numRolls);
+
+        //reseting the bet after the game is over for the next play
+        document.getElementById("initialBet").value = "";
+        
         return false; 
     }
    
